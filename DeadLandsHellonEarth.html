@@ -220,221 +220,221 @@
             <label>Mental Traits:</label>
             <table>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_cognitionroll" value="Cognition Check [[@{cognitioncoord}d@{cognitiontrait}!!kh1+@{cognitionbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_cognitionroll" value="&{template:default} {{name= Cognition }} {{Check= [[@{cognitioncoord}d@{cognitiontrait}!!kh1+@{cognitionbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td><b>D</b><input type="number" name="attr_cognitiontrait" /><b>+</b><input type="number" name="attr_cognitionbonus" value="0" /></td>
                    <td><b>Cognition</b></td>
-                   <td><input type="number" name="attr_cognitioncoord" /></td>
+                   <td><input type="number" name="attr_cognitioncoord" value="0" /></td>
                 </tr>
                 <tr>
-                    <td><button type="roll" class="sheet-" name="attr_Artilleryroll" value="Artillery Check [[@{Artillerycoordd@{cognitiontrait}!!kh1+@{cognitionbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                    <td><button type="roll" class="sheet-" name="attr_Artilleryroll" value="&{template:default} {{name= Artillery }} {{Check= [[@{Artillerycoord}d@{cognitiontrait}!!kh1+@{cognitionbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }} "></button></td>
                    <td>Artillery</td>
                    <td><input type="text" name="attr_Artillery" /></td>
-                   <td><input type="number" name="attr_Artillerycoord" /></td>
+                   <td><input type="number" name="attr_Artillerycoord" value="0" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Artroll" value="Art Check [[@{Artcoord}d@{cognitiontrait}!!kh1+@{cognitionbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Artroll" value="&{template:default} {{name= Art }} {{Check= [[@{Artscoord}d@{cognitiontrait}!!kh1+@{cognitionbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td>Arts</td>
                    <td><input type="text" name="attr_Arts" /></td>
-                   <td><input type="number" name="attr_Artscoord" /></td>
+                   <td><input type="number" name="attr_Artscoord" value="0" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Scrutinizeroll" value="Scrutinize Check [[@{Scrutinizecoord}d@{cognitiontrait}!!kh1+@{cognitionbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Scrutinizeroll" value="&{template:default} {{name= Scrutinize }} {{Check= [[@{Scrutinizecoord}d@{cognitiontrait}!!kh1+@{cognitionbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td>Scrutinize</td>
                    <td></td>
-                   <td><input type="number" name="attr_Scrutinizecoord" /></td>
+                   <td><input type="number" name="attr_Scrutinizecoord" value="0" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_searchroll" value="Search Check [[@{searchcoord}d@{cognitiontrait}!!kh1+@{cognitionbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_searchroll" value="&{template:default} {{name= Search }} {{Check= [[@{searchcoord}d@{cognitiontrait}!!kh1+@{cognitionbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td>Search</td>
                    <td></td>
                    <td><input type="number" name="attr_searchcoord" value="1" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_trackinroll" value="Trackin Check [[@{trackincoord}d@{cognitiontrait}!!kh1+@{cognitionbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_trackinroll" value="&{template:default} {{name= Trackin }} {{Check= [[@{trackincoord}d@{cognitiontrait}!!kh1+@{cognitionbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td>Trackin</td>
                    <td></td>
-                   <td><input type="number" name="attr_trackincoord" /></td>
+                   <td><input type="number" name="attr_trackincoord" value="0" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Knowledgeroll" value="Knowledge Check [[@{Knowledgecoord}d@{Knowledgetrait}!!kh1+@{Knowledgebonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Knowledgeroll" value="&{template:default} {{name= Knowledge }} {{Check= [[@{Knowledgecoord}d@{Knowledgetrait}!!kh1+@{Knowledgebonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]}}"></button></td>
                    <td><b>D</b><input type="number" name="attr_Knowledgetrait" /><b>+</b><input type="number" name="attr_Knowledgebonus" value="0" /></td>
                    <td><b>Knowledge</b></td>
-                   <td><input type="number" name="attr_Knowledgecoord" /></td>
+                   <td><input type="number" name="attr_Knowledgecoord" value="0" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Academiaroll" value="Academia Check [[@{Academiacoord}d@{Knowledgetrait}!!kh1+@{Knowledgebonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Academiaroll" value="&{template:default} {{name= Academia }} {{Check= [[@{Academiacoord}d@{Knowledgetrait}!!kh1+@{Knowledgebonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td>Academia</td>
                    <td><input type="text" name="attr_Academia" /></td>
-                   <td><input type="number" name="attr_Academiacoord" /></td>
+                   <td><input type="number" name="attr_Academiacoord" value="0" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Arearoll" value="Area Knowledge Check [[@{Areacoord}d@{Knowledgetrait}!!kh1+@{Knowledgebonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Arearoll" value="&{template:default} {{name= Area Knowledge }} {{Check= [[@{Areacoord}d@{Knowledgetrait}!!kh1+@{Knowledgebonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td>Area Knowledge</td>
                    <td><input type="text" name="attr_Area" value="Home County"/></td>
                    <td><input type="number" name="attr_Areacoord" value="2" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Blastinroll" value="Blastin Check [[@{Blastincoord}d@{Knowledgetrait}!!kh1+@{Knowledgebonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Blastinroll" value="&{template:default} {{name= Blastin }} {{Check= [[@{Blastincoord}d@{Knowledgetrait}!!kh1+@{Knowledgebonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td>Blastin</td>
                    <td></td>
-                   <td><input type="number" name="attr_Blastincoord" /></td>
+                   <td><input type="number" name="attr_Blastincoord" value="0" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Demolitionroll" value="Demolition Check [[@{Demolitioncoord}d@{Knowledgetrait}!!kh1+@{Knowledgebonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Demolitionroll" value="&{template:default} {{name= Demolition }} {{Check= [[@{Demolitioncoord}d@{Knowledgetrait}!!kh1+@{Knowledgebonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td>Demolition</td>
                    <td></td>
-                   <td><input type="number" name="attr_Demolitioncoord" /></td>
+                   <td><input type="number" name="attr_Demolitioncoord" value="0" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Disguiseroll" value="Disguise Check [[@{Disguisecoord}d@{Knowledgetrait}!!kh1+@{Knowledgebonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Disguiseroll" value="&{template:default} {{name= Disguise }} {{Check= [[@{Disguisecoord}d@{Knowledgetrait}!!kh1+@{Knowledgebonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td>Disguise</td>
                    <td></td>
-                   <td><input type="number" name="attr_Disguisecoord" /></td>
+                   <td><input type="number" name="attr_Disguisecoord" value="0" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Hexslingroll" value="Hexsling Check [[@{Hexslingcoord}d@{Knowledgetrait}!!kh1+@{Knowledgebonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Hexslingroll" value="&{template:default} {{name= Hexsling }} {{Check= [[@{Hexslingcoord}d@{Knowledgetrait}!!kh1+@{Knowledgebonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td>Hexsling</td>
                    <td></td>
-                   <td><input type="number" name="attr_Hexslingcoord" /></td>
+                   <td><input type="number" name="attr_Hexslingcoord" value="0" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Languageroll" value="Language Check [[@{Languagecoord}d@{Knowledgetrait}!!kh1+@{Knowledgebonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Languageroll" value="&{template:default} {{name= Language }} {{Check= [[@{Languagecoord}d@{Knowledgetrait}!!kh1+@{Knowledgebonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td>Language</td>
                    <td><input type="text" name="attr_Language" value="Native Tongue"/></td>
                    <td><input type="number" name="attr_Languagecoord" value="2" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Medicineroll" value="Medicine Check [[@{Medicinecoord}d@{Knowledgetrait}!!kh1+@{Knowledgebonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Medicineroll" value="&{template:default} {{name= Medicine }} {{Check= [[@{Medicinecoord}d@{Knowledgetrait}!!kh1+@{Knowledgebonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td>Medicine</td>
                    <td><input type="text" name="attr_Medicine" /></td>
-                   <td><input type="number" name="attr_Medicinecoord" /></td>
+                   <td><input type="number" name="attr_Medicinecoord" value="0" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Professionalroll" value="Professional Check [[@{Professionalcoord}d@{Knowledgetrait}!!kh1+@{Knowledgebonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Professionalroll" value="&{template:default} {{name= Professional }} {{Check= [[@{Professionalcoord}d@{Knowledgetrait}!!kh1+@{Knowledgebonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td>Professional</td>
                    <td><input type="text" name="attr_Professional" /></td>
-                   <td><input type="number" name="attr_Professionalcoord" /></td>
+                   <td><input type="number" name="attr_Professionalcoord" value="0" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Scienceroll" value="Science Check [[@{Sciencecoord}d@{Knowledgetrait}!!kh1+@{Knowledgebonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Scienceroll" value="&{template:default} {{name= Science }} {{Check= [[@{Sciencecoord}d@{Knowledgetrait}!!kh1+@{Knowledgebonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td>Science</td>
                    <td><input type="text" name="attr_Science" /></td>
-                   <td><input type="number" name="attr_Sciencecoord" /></td>
+                   <td><input type="number" name="attr_Sciencecoord" value="0" /></td>
                </tr>
                <tr>
-                   <td> <button type="roll" class="sheet-" name="attr_Traderoll" value="Trade Check [[@{Tradecoord}d@{Knowledgetrait}!!kh1+@{Knowledgebonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td> <button type="roll" class="sheet-" name="attr_Traderoll" value="&{template:default} {{name= Trade }} {{Check= [[@{Tradecoord}d@{Knowledgetrait}!!kh1+@{Knowledgebonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td>Trade</td>
                    <td><input type="text" name="attr_Trade" /></td>
-                   <td><input type="number" name="attr_Tradecoord" /></td>
+                   <td><input type="number" name="attr_Tradecoord" value="0" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Mienroll" value="Mien Check [[@{Miencoord}d@{Mientrait}!!kh1+@{Mienbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Mienroll" value="&{template:default} {{name= Mien }} {{Check= [[@{Miencoord}d@{Mientrait}!!kh1+@{Mienbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td><b>D</b><input type="number" name="attr_Mientrait" /><b>+</b><input type="number" name="attr_Mienbonus" value="0" /></td>
                    <td><b>Mien</b></td>
-                   <td><input type="number" name="attr_Miencoord" /></td>
+                   <td><input type="number" name="attr_Miencoord" value="0" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Animalroll" value="Animal Handlin Check [[@{Animalcoord}d@{Mientrait}!!kh1+@{Mienbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Animalroll" value="&{template:default} {{name= Animal Handlin }} {{Check= [[@{Animalcoord}d@{Mientrait}!!kh1+@{Mienbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td>Animal Handlin</td>
                    <td></td>
-                   <td><input type="number" name="attr_Animalcoord" /></td>
+                   <td><input type="number" name="attr_Animalcoord" value="0" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Leadershiproll" value="Leadership Check [[@{Leadershipcoord}d@{Mientrait}!!kh1+@{Mienbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Leadershiproll" value="&{template:default} {{name= Leadership }} {{Check= [[@{Leadershipcoord}d@{Mientrait}!!kh1+@{Mienbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td>Leadership</td>
                    <td></td>
-                   <td><input type="number" name="attr_Leadershipcoord" /></td>
+                   <td><input type="number" name="attr_Leadershipcoord" value="0" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Overaweroll" value="Overawe Check [[@{Overawecoord}d@{Mientrait}!!kh1+@{Mienbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Overaweroll" value="&{template:default} {{name= Overawe }} {{Check= [[@{Overawecoord}d@{Mientrait}!!kh1+@{Mienbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td>Overawe</td>
                    <td></td>
-                   <td><input type="number" name="attr_Overawecoord" /></td>
+                   <td><input type="number" name="attr_Overawecoord" value="0" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Performinroll" value="Performin Check [[@{Performincoord}d@{Mientrait}!!kh1+@{Mienbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Performinroll" value="&{template:default} {{name= Performin }} {{Check= [[@{Performincoord}d@{Mientrait}!!kh1+@{Mienbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td>Performin</td>
                    <td><input type="text" name="attr_Performin" /></td>
-                   <td><input type="number" name="attr_Performincoord" /></td>
+                   <td><input type="number" name="attr_Performincoord" value="0" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Persuasionroll" value="Persuasion Check [[@{Persuasioncoord}d@{Mientrait}!!kh1+@{Mienbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Persuasionroll" value="&{template:default} {{name= Persuasion }} {{Check= [[@{Persuasioncoord}d@{Mientrait}!!kh1+@{Mienbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td>Persuasion</td>
                    <td></td>
-                   <td><input type="number" name="attr_Persuasioncoord" /></td>
+                   <td><input type="number" name="attr_Persuasioncoord" value="0" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Taleroll" value="Tale Tellin Check [[@{Talecoord}d@{Mientrait}!!kh1+@{Mienbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Taleroll" value="&{template:default} {{name= Tale Tellin }} {{Check= [[@{Talecoord}d@{Mientrait}!!kh1+@{Mienbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td>Tale Tellin</td>
                    <td></td>
-                   <td><input type="number" name="attr_Talecoord" /></td>
+                   <td><input type="number" name="attr_Talecoord" value="0" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Smartsroll" value="Smarts Check [[@{Smartscoord}d@{Smartstrait}!!kh1+@{Smartsbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Smartsroll" value="&{template:default} {{name= Smarts }} {{Check= [[@{Smartscoord}d@{Smartstrait}!!kh1+@{Smartsbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td><b>D</b><input type="number" name="attr_Smartstrait" /><b>+</b><input type="number" name="attr_Smartsbonus" value="0" /></td>
                    <td><b>Smart</b></td>
-                   <td><input type="number" name="attr_Smartscoord" /></td>
+                   <td><input type="number" name="attr_Smartscoord" value="0" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Bluffroll" value="Bluff Check [[@{Bluffcoord}d@{Smartstrait}!!kh1+@{Smartsbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Bluffroll" value="&{template:default} {{name= Bluff }} {{Check= [[@{Bluffcoord}d@{Smartstrait}!!kh1+@{Smartsbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td>Bluff</td>
                    <td></td>
-                   <td><input type="number" name="attr_Bluffcoord" /></td>
+                   <td><input type="number" name="attr_Bluffcoord" value="0" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Gamblinroll" value="Gamblin Check [[@{Gamblincoord}d@{Smartstrait}!!kh1+@{Smartsbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Gamblinroll" value="&{template:default} {{name= Gamblin }} {{Check= [[@{Gamblincoord}d@{Smartstrait}!!kh1+@{Smartsbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td>Gamblin</td>
                    <td></td>
-                   <td><input type="number" name="attr_Gamblincoord" /></td>
+                   <td><input type="number" name="attr_Gamblincoord" value="0" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Ridiculeroll" value="Ridicule Check [[@{Ridiculecoord}d@{Smartstrait}!!kh1+@{Smartsbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Ridiculeroll" value="&{template:default} {{name= Ridicule }} {{Check= [[@{Ridiculecoord}d@{Smartstrait}!!kh1+@{Smartsbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td>Ridicule</td>
                    <td></td>
-                   <td><input type="number" name="attr_Ridiculecoord" /></td>
+                   <td><input type="number" name="attr_Ridiculecoord" value="0" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Scrounginroll" value="Scroungin Check [[@{Scroungincoord}d@{Smartstrait}!!kh1+@{Smartsbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Scrounginroll" value="&{template:default} {{name= Scroungin }} {{Check= [[@{Scroungincoord}d@{Smartstrait}!!kh1+@{Smartsbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td>Scroungin</td>
                    <td></td>
-                   <td><input type="number" name="attr_Scroungincoord" /></td>
+                   <td><input type="number" name="attr_Scroungincoord" value="0" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Streetwiseroll" value="Streetwise Check [[@{Streetwisecoord}d@{Smartstrait}!!kh1+@{Smartsbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Streetwiseroll" value="&{template:default} {{name= Streetwise }} {{Check= [[@{Streetwisecoord}d@{Smartstrait}!!kh1+@{Smartsbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td>Streetwise</td>
                    <td></td>
-                   <td><input type="number" name="attr_Streetwisecoord" /></td>
+                   <td><input type="number" name="attr_Streetwisecoord" value="0" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Survivalroll" value="Survival Check [@[{Survivalcoord}d@{Smartstrait}!!kh1+@{Smartsbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Survivalroll" value="&{template:default} {{name= Survival }} {{Check= [[@{Survivalcoord}d@{Smartstrait}!!kh1+@{Smartsbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td>Survival</td>
                    <td><input type="text" name="attr_Survival" /></td>
-                   <td><input type="number" name="attr_Survivalcoord" /></td>
+                   <td><input type="number" name="attr_Survivalcoord" value="0" /></td>
                </tr>
 
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Tinkerinroll" value="Tinkerin Check [[@{Tinkerincoord}d@{Smartstrait}!!kh1+@{Smartsbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Tinkerinroll" value="&{template:default} {{name= Tinkerin }} {{Check= [[@{Tinkerincoord}d@{Smartstrait}!!kh1+@{Smartsbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td>Tinkerin</td>
-                   <td><input type="text" name="attr_Tinkerin" /></td>
                    <td></td>
+                   <td><input type="number" name="attr_Tinkerincoord" value="0" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Spiritroll" value="Spirit Check [[@{Spiritcoord}d@{Spirittrait}!!kh1+@{Spiritbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Spiritroll" value="&{template:default} {{name= Spirit }} {{Check= [[@{Spiritcoord}d@{Spirittrait}!!kh1+@{Spiritbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td><b>D</b><input type="number" name="attr_Spirittrait" /><b>+</b><input type="number" name="attr_Spiritbonus" value="0" /></td>
                    <td><b>Spirit</b></td>
-                   <td><input type="number" name="attr_Spiritcoord" /></td>
+                   <td><input type="number" name="attr_Spiritcoord" value="0" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Faithroll" value="Faith Check [[@{Faithcoord}d@{Spirittrait}!!kh1+@{Spiritbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Faithroll" value="&{template:default} {{name= Faith }} {{Check= [[@{Faithcoord}d@{Spirittrait}!!kh1+@{Spiritbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td>Faith</td>
                    <td></td>
-                   <td><input type="number" name="attr_Faithcoord" /></td>
+                   <td><input type="number" name="attr_Faithcoord" value="0" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Gutsroll" value="Guts Check [[@{Gutscoord}d@{Spirittrait}!!kh1+@{Spiritbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Gutsroll" value="&{template:default} {{name= Guts }} {{Check= [[@{Gutscoord}d@{Spirittrait}!!kh1+@{Spiritbonus}+@{grit}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td>Guts</td>
                    <td></td>
-                   <td><input type="number" name="attr_Gutscoord" /></td>
+                   <td><input type="number" name="attr_Gutscoord" value="0" /></td>
                </tr>
            </table>
         
@@ -445,130 +445,130 @@
             <label>Corporeal Traits:</label>
             <table>
                 <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Deftnessroll" value="Deftness Check [[@{Deftnesscoord}d@{Deftnesstrait}!!kh1+@{Deftnessbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Deftnessroll" value="&{template:default} {{name= Deftness }} {{Check= [[@{Deftnesscoord}d@{Deftnesstrait}!!kh1+@{Deftnessbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td><b>D</b><input type="number" name="attr_Deftnesstrait" /><b>+</b><input type="number" name="attr_Deftnessbonus" value="0" /></td>
                    <td><b>Deftness</b></td>
-                   <td><input type="number" name="attr_Deftnesscoord" /></td>
+                   <td><input type="number" name="attr_Deftnesscoord" value="0" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Bowroll" value="Bow Check [[@{Bowcoord}d@{Deftnesstrait}!!kh1+@{Deftnessbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Bowroll" value="&{template:default} {{name= Bow }} {{Check= [[@{Bowcoord}d@{Deftnesstrait}!!kh1+@{Deftnessbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td>Bow</td>
                    <td></td>
-                   <td><input type="number" name="attr_Bowcoord" /></td>
+                   <td><input type="number" name="attr_Bowcoord" value="0" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Filchinroll" value="Filchin Check [[@{Filchincoord}d@{Deftnesstrait}!!kh1+@{Deftnessbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Filchinroll" value="&{template:default} {{name= Filchin }} {{Check= [[@{Filchincoord}d@{Deftnesstrait}!!kh1+@{Deftnessbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td>Filchin</td>
                    <td></td>
-                   <td><input type="number" name="attr_Filchincoord" /></td>
+                   <td><input type="number" name="attr_Filchincoord" value="0" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Lockpickinroll" value="Lockpickin Check [[@{Lockpickincoord}d@{Deftnesstrait}!!kh1+@{Deftnessbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Lockpickinroll" value="&{template:default} {{name= Lockpickin}} {{Check= [[@{Lockpickincoord}d@{Deftnesstrait}!!kh1+@{Deftnessbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td>Lockpickin</td>
                    <td></td>
-                   <td><input type="number" name="attr_Lockpickincoord" /></td>
+                   <td><input type="number" name="attr_Lockpickincoord" value="0" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Shootinroll" value="Shootin Check [[@{Shootincoord}d@{Deftnesstrait}!!kh1+@{Deftnessbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Shootinroll" value="&{template:default} {{name= Shootin }} {{Check= [[@{Shootincoord}d@{Deftnesstrait}!!kh1+@{Deftnessbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td>Shootin</td>
                    <td><input type="text" name="attr_Shootin" /></td>
-                   <td><input type="number" name="attr_Shootincoord" /></td>
+                   <td><input type="number" name="attr_Shootincoord" value="0" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Sleightroll" value="Sleight o’ Hand Check [[@{Sleightcoord}d@{Deftnesstrait}!!kh1+@{Deftnessbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Sleightroll" value="&{template:default} {{name= Sleight o’ Hand }} {{Check= [[@{Sleightcoord}d@{Deftnesstrait}!!kh1+@{Deftnessbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td>Sleight o’ Hand</td>
                    <td></td>
-                   <td><input type="number" name="attr_Sleightcoord" /></td>
+                   <td><input type="number" name="attr_Sleightcoord" value="0" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Speedroll" value="Speed Load Check [[@{Speedcoord}d@{Deftnesstrait}!!kh1+@{Deftnessbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Speedroll" value="&{template:default} {{name= Speed Load }} {{Check= [[@{Speedcoord}d@{Deftnesstrait}!!kh1+@{Deftnessbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td>Speed Load</td>
                    <td><input type="text" name="attr_Speed" /></td>
-                   <td><input type="number" name="attr_Speedcoord" /></td>
+                   <td><input type="number" name="attr_Speedcoord" value="0" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Throwinroll" value="Throwin Check [[@{Throwincoord}d@{Deftnesstrait}!!kh1+@{Deftnessbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Throwinroll" value="&{template:default} {{name= Throwin }} {{Check= [[@{Throwincoord}d@{Deftnesstrait}!!kh1+@{Deftnessbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td>Throwin</td>
                    <td><input type="text" name="attr_Throwin" /></td>
-                   <td><input type="number" name="attr_Throwincoord" /></td>
+                   <td><input type="number" name="attr_Throwincoord" value="0" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Nimblenessroll" value="Nimbleness Check [[@{Nimblenesscoord}d@{Nimblenesstrait}!!kh1+@{Nimblenessbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Nimblenessroll" value="&{template:default} {{name= Nimbleness }} {{Check= [[@{Nimblenesscoord}d@{Nimblenesstrait}!!kh1+@{Nimblenessbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td><b>D</b><input type="number" name="attr_Nimblenesstrait" /><b>+</b><input type="number" name="attr_Nimblenessbonus" value="0" /></td>
                    <td><b>Nimbleness</b></td>
-                   <td><input type="number" name="attr_Nimblenesscoord" /></td>
+                   <td><input type="number" name="attr_Nimblenesscoord" value="0" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Climbinroll" value="Climbin Knowledge Check [[@{Climbincoord}d@{Nimblenesstrait}!!kh1+@{Nimblenessbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Climbinroll" value="&{template:default} {{name= Climbin }} {{Check= [[@{Climbincoord}d@{Nimblenesstrait}!!kh1+@{Nimblenessbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td>Climbin</td>
                    <td></td>
                    <td><input type="number" name="attr_Climbincoord" value="1" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Dodgeroll" value="Dodge Check [[@{Dodgecoord}d@{Nimblenesstrait}!!kh1+@{Nimblenessbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Dodgeroll" value="&{template:default} {{name= Dodge }} {{Check= [[@{Dodgecoord}d@{Nimblenesstrait}!!kh1+@{Nimblenessbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td>Dodge</td>
                    <td></td>
-                   <td><input type="number" name="attr_Dodgecoord" /></td>
+                   <td><input type="number" name="attr_Dodgecoord" value="0" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Drivinroll" value="Drivin Check [[@{Drivincoord}d@{Nimblenesstrait}!!kh1+@{Nimblenessbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Drivinroll" value="&{template:default} {{name= Drivin }} {{Check= [[@{Drivincoord}d@{Nimblenesstrait}!!kh1+@{Nimblenessbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td>Drivin</td>
                    <td><input type="text" name="attr_Drivin" /></td>
-                   <td><input type="number" name="attr_Drivincoord" /></td>
+                   <td><input type="number" name="attr_Drivincoord" value="0" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Fightinroll" value="Fightin Check [[@{Fightincoord}d@{Nimblenesstrait}!!kh1+@{Nimblenessbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Fightinroll" value="&{template:default} {{name= Fightin }} {{Check= [[@{Fightincoord}d@{Nimblenesstrait}!!kh1+@{Nimblenessbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td>Fightin</td>
                    <td><input type="text" name="attr_Fightin" /></td>
-                   <td><input type="number" name="attr_Fightincoord" /></td>
+                   <td><input type="number" name="attr_Fightincoord" value="0" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Ridinroll" value="Ridin Check [[@{Ridincoord}d@{Nimblenesstrait}!!kh1+@{Nimblenessbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Ridinroll" value="&{template:default} {{name= Ridin }} {{Check= [[@{Ridincoord}d@{Nimblenesstrait}!!kh1+@{Nimblenessbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td>Ridin</td>
                    <td></td>
-                   <td><input type="number" name="attr_Ridincoord" /></td>
+                   <td><input type="number" name="attr_Ridincoord" value="0" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Sneakroll" value="Sneak Check [[@{Sneakcoord}d@{Nimblenesstrait}!!kh1+@{Nimblenessbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Sneakroll" value="&{template:default} {{name= Sneak }} {{Check= [[@{Sneakcoord}d@{Nimblenesstrait}!!kh1+@{Nimblenessbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td>Sneak</td>
                    <td></td>
                    <td><input type="number" name="attr_Sneakcoord" value="1" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Swimminroll" value="Swimmin Check [[@{Swimmincoord}d@{Nimblenesstrait}!!kh1+@{Nimblenessbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Swimminroll" value="&{template:default} {{name= Swimmin }} {{Check= [[@{Swimmincoord}d@{Nimblenesstrait}!!kh1+@{Nimblenessbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td>Swimmin</td>
                    <td></td>
-                   <td><input type="number" name="attr_Swimmincoord" /></td>
+                   <td><input type="number" name="attr_Swimmincoord" value="0" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Teamsterroll" value="Teamster Check [[@{Teamstercoord}d@{Nimblenesstrait}!!kh1+@{Nimblenessbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Teamsterroll" value="&{template:default} {{name= Teamster }} {{Check= [[@{Teamstercoord}d@{Nimblenesstrait}!!kh1+@{Nimblenessbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td>Teamster</td>
                    <td></td>
-                   <td><input type="number" name="attr_Teamstercoord" /></td>
+                   <td><input type="number" name="attr_Teamstercoord" value="0" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Strengthroll" value="Strength Check [[@{Strengthscoord}d@{Strengthstrait}!!kh1+@{Strengthbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Strengthroll" value="&{template:default} {{name= Strength }} {{Check= [[@{Strengthcoord}d@{Strengthtrait}!!kh1+@{Strengthbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td><b>D</b><input type="number" name="attr_Strengthtrait" /><b>+</b><input type="number" name="attr_Strengthbonus" value="0" /></td>
                    <td><b>Strength</b></td>
-                   <td><input type="number" name="attr_Strengthcoord" /></td>
+                   <td><input type="number" name="attr_Strengthcoord" value="0" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Quicknessroll" value="Quickness Check [[@{Quicknesscoord}d@{Quicknesstrait}!!kh1+@{Quicknessbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Quicknessroll" value="&{template:default} {{name= Quickness }} {{Check= [[@{Quicknesscoord}d@{Quicknesstrait}!!kh1+@{Quicknessbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td><b>D</b><input type="number" name="attr_Quicknesstrait" /><b>+</b><input type="number" name="attr_Quicknessbonus" value="0" /></td>
                    <td><b>Quickness</b></td>
-                   <td><input type="number" name="attr_Quicknesscoord" /></td>
+                   <td><input type="number" name="attr_Quicknesscoord" value="0" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Quickroll" value="Quick Draw Check [[@{Quickcoord}d@{Quicknesstrait}!!kh1+@{Quicknessbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Quickroll" value="&{template:default} {{name= Quick Draw}} {{Check= [[@{Quickcoord}d@{Quicknesstrait}!!kh1+@{Quicknessbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td>Quick Draw</td>
                    <td></td>
-                   <td><input type="number" name="attr_Quickcoord" /></td>
+                   <td><input type="number" name="attr_Quickcoord" value="0" /></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Vigorroll" value="Vigor Check [[@{Vigorcoord}d@{Vigortrait}!!kh1+@{Vigorbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Vigorroll" value="&{template:default} {{name= Vigor }} {{Check= [[@{Vigorcoord}d@{Vigortrait}!!kh1+@{Vigorbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])]] }}"></button></td>
                    <td><b>D</b><input type="number" name="attr_Vigortrait" /><b>+</b><input type="number" name="attr_Vigorbonus" value="0" /></td>
                    <td><b>Vigor</b></td>
-                   <td><input type="number" name="attr_Vigorcoord" /></td>
+                   <td><input type="number" name="attr_Vigorcoord" value="0" /></td>
                </tr>
            </table>
         
@@ -593,13 +593,13 @@
                    <td><b>Damage</b></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Weaponroll" value="@{Weapon} [[[?{Number|1}d?{type|4}!!+?{Modifier|0}]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Weaponroll" value="&{template:default} {{name= @{Weapon} Hurt @{target|token_name} for }} {{Check= [[?{Number|@{Damagecoord}}d?{type|@{Damagetrait}}!!+?{Modifier|0}]] }}"></button></td>
                    <td><input type="text" name="attr_Weapon" /></td>
                    <td><input type="number" name="attr_Shots" value="1"/></td>
                    <td><input type="number" name="attr_Speed" value="1"/></td>
                    <td><input type="number" name="attr_RoF" value="1"/></td>
                    <td><input type="number" name="attr_Range" value="5"/></td>
-                   <td><input type="text" name="attr_Damage" /></td></td>
+                   <td><input type="number" name="attr_Damagecoord" />D<input type="number" name="attr_Damagetrait" /></td>
                </tr>
            </table>
 
@@ -618,11 +618,11 @@
                    <td><b>Damage</b></td>
                </tr>
                <tr>
-                   <td><button type="roll" class="sheet-" name="attr_Melee-Weaponroll" value="@{Melee-Weapon} [[[(@{Strengthscoord}d@{Strengthstrait}!!kh1+@{Strengthbonus}+([[@{{Head_wound_penalty}, @{Left-Arm-wound_penalty}, @{Right-Arm-wound_penalty}, @{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}kl1]]))+ (?{Number|1}d?{type|4}!!+?{Modifier|0})]]"></button></td>
+                   <td><button type="roll" class="sheet-" name="attr_Melee-Weaponroll" value="&{template:default} {{name= @{Melee-Weapon} Hurt @{target|token_name} for }} {{Check= [[@{Strengthcoord}d@{Strengthtrait}!!kh1+@{Strengthbonus}+([[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]])+ (?{Number|@{Melee-Damagecoord}}d?{type|@{Melee-Damagetrait}}!!+?{Modifier|0})]] }}"></button></td>
                    <td><input type="text" name="attr_Melee-Weapon" /></td>
                    <td><input type="number" name="attr_Melee-Defense" value="1"/></td>
                    <td><input type="number" name="attr_Melee-Speed" value="1"/></td>
-                   <td><input type="text" name="attr_Melee-Damage" /></td></td>
+                   <td><input type="number" name="attr_Melee-Damagecoord" />D<input type="number" name="attr_Melee-Damagetrait" /></td>
                </tr>
            </table>
 
@@ -1242,7 +1242,7 @@
                         <td><input type="number" name="attr_max-Durabulity"  value="0"/></td>
                     </tr>
                 </table>
-        <td><button type="roll" class="sheet-" name="attr_Drivin-this-velroll" value="Drivin Check [[(@{Drivincoord}d@{Nimblenesstrait}!!kh1+@{Nimblenessbonus}+([[@{{Head_wound_penalty}, @{Left-Arm-wound_penalty}, @{Right-Arm-wound_penalty}, @{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}kl1]]))+@{Durabulity}]]+@{Handling}+@{Speedometer}]]">Driving Roll</button></td>
+        <button type="roll" class="sheet-" name="attr_Drivin_this_velroll" value="&{template:default} {{name= Drivin @{Vehicle} }} {{Check= [[@{Drivincoord}d@{Nimblenesstrait}!!kh1+@{Nimblenessbonus}+[[{@{Head_wound_penalty},@{Left-Arm-wound_penalty},@{Right-Arm-wound_penalty},@{Guts_wound_penalty},@{Left-Leg-wound_penalty},@{Right-Leg-wound_penalty}}KL1]]+@{Durabulity}+@{Handling}+@{Speedometer}]] }}">Driving Roll</button>
 	   </div>
 
 	    <div class="sheet-col">
